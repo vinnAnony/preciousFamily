@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mother"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/calendar_selected_date_blue"
+    android:orientation="vertical">
+
+
+    <com.p_v.flexiblecalendar.FlexibleCalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingBottom="22dp"
+        support:startDayOfTheWeek="MONDAY" />
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/calendar_view"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/top_shadow" />
+
+
+    <RelativeLayout
+        android:id="@+id/event_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/shadow">
+
+
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3dp"
+            android:padding="10dp"
+            android:text="TODAY"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/day"
+            android:layout_marginTop="-23dp"
+            android:padding="10dp"
+            android:text="03/10/2016"
+            android:textColor="@android:color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/dotted_line"
+            android:layerType="software" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:divider="@android:color/transparent" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

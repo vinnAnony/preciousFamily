@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Precious Family</string>
+
+    <string name="cd_memb">Members</string>
+    <string name="cd_blog">Blog</string>
+    <string name="cd_acc">Accounts </string>
+    <string name="cd_event">Events </string>
+    <string name="btn_exit">Exit</string>
+
+    <string name="txt_acc">Accounts Login</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_lipa">Lipa Na Mpesa</string>
+    <string name="btn_Pay">Pay</string>
+    <string name="txt_pass">Password</string>
+    <string name="txt_un">Username</string>
+    <string name="txt_mob">Mobile Number</string>
+    <string name="txt_amnt">Amount</string>
+    <string name="txt_depo">Make a deposit</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_calendar_list">CalendarListActivity</string>
+    <string name="title_activity_calendar_activity3">CalendarActivity3</string>
+    <string name="title_activity_calendary_activity4">CalendaryActivity4</string>
+</resources>
